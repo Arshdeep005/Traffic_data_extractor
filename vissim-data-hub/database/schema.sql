@@ -1,0 +1,9 @@
+CREATE DATABASE VISSIMweb;
+USE VISSIMweb;
+
+CREATE TABLE user (
+    name VARCHAR(100),
+    email VARCHAR(100),
+    data MEDIUMBLOB,
+    PRIMARY KEY (email)
+); 
